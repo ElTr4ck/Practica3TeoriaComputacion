@@ -16,7 +16,7 @@ gramatica = CFG.fromstring("""
     ASIG -> IDEN '=' ASIG | OPEN | OPERACION
     OPERACION -> OPERACION OPER OPERACION | '(' OPERACION ')' | OPEN
     NUM -> '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | '0' NUM | '1' NUM | '2' NUM | '3' NUM | '4' NUM | '5' NUM | '6' NUM | '7' NUM | '8' NUM | '9' NUM
-    LET -> 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' |'_'
+    LET -> 'a' | 'b' | 'c' | 'd' | 'e' | 'f' | 'g' | 'h' | 'i' | 'j' | 'k' | 'l' | 'm' | 'n' | 'o' | 'p' | 'q' | 'r' | 's' | 't' | 'u' | 'v' | 'w' | 'x' | 'y' | 'z' | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'G' | 'H' | 'I' | 'J' | 'K' | 'L' | 'M' | 'N' | 'O' | 'P' | 'Q' | 'R' | 'S' | 'T' | 'U' | 'V' | 'W' | 'X' | 'Y' | 'Z' | '_'
     OPER -> '+' | '-' | '*' | '/' | '%'
     OPEN -> IDEN | NUM
 """)
